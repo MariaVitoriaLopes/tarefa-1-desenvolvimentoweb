@@ -9,12 +9,12 @@
 </head>
 <body>
     <header>
-        <h1>Bem-vindo à minha página</h1>
+        <h1><i>Bem-vindo à minha página</i></h1>
         <p>Algumas coisas que eu irei te contar sobre mim:
         </p>
     </header>
    
-    <nav id="topicos">
+    <nav >
         <ul>
             <li> <a href="#eu">Quem sou eu</a> </li>
             <li><a href="#L1">Objetivos</a></li>
@@ -27,42 +27,53 @@
     </nav>
  
    <main>
-    <section >
-    <img width="30%"  id="eu" src="./image-tarefa/Imagem do WhatsApp de 2025-02-28 à(s) 16.25.10_4a7c0cfb.jpg" alt=""> 
+    <section  id="eu"  >
+    <img width="30%" src="./image-tarefa/Imagem do WhatsApp de 2025-02-28 à(s) 16.25.05_f28a43a9.jpg" alt="foto minha"> 
      <p> Olá, me chamo Maria Vitória, tenho 17 anos, nasci dia 12/07/2007.
-        Atualmente estou cursando DSM na fatec Praia Grande e também desenvolvimento web full stack no <br>INJR(instituto Neymar Junior). Quando  não estou programando, estou ouvindo músicas, jogando volei ou também fazendo doces para vender enquanto não estou estagiando. <br>
+        Atualmente estou cursando <b>DSM</b> na <i>fatec Praia Grande</i> e também  <u>desenvolvimento web full stack</u> no <br>INJR(instituto Neymar Junior). Quando  não estou programando, estou ouvindo músicas, jogando volei ou também fazendo doces para vender enquanto não estou estagiando. <br>
         Sou uma pessoa muito curiosa e extremamente determinada em relação aos meus objetivos, adoro me comunicar e expressar minhas ideias e também aprender seja com outras <br>pessoas ou comigo mesma. 
      </p>
     </section>
-<h1 id="L1">Meus objetivos:</h1>
+
+    <section  id="L1">
+<h1>Meus objetivos:</h1>
 <ul>
 
     <li>Concluir a faculdade</li>
     <li>Atuar como desenvolvedora web full stack</li>
     <li>Possuir estabilidade financeira</li>
     <li>trabalhar home office </li>
-    
+
 </ul>
-<h1 id="L2">Meus hobbies:</h1>
+</section>
+
+<section id="L2">
+<h1 >Meus hobbies:</h1>
 <ul>
 <li>Jogar volei</li>
 <li>Programação</li>
 <li>Academia</li>
 <li>Cozinhar</li>
 </ul>
+</section>
 
-
-
-<h1 id="L3">Minhas habilidades: </h1>
+<section  id="L3">
+<h1>Minhas habilidades: </h1>
 <ol>
     <li>Comunicação</li>
-    <li>Programação</li>
+    <li>Programação
+        <ol>
+            <li>
+                java script
+            </li>
+        </ol>
+    </li> 
     <li>idiomas</li>
     
    
 </ol>
 
-
+</section>
 
 
         <section>
@@ -165,6 +176,20 @@
                         <option>músico</option>
                     </optgroup>
                 </select>
+                    <br><br>
+
+                    <label> Interesses :</label>
+                    <br><br>
+                    <input type="checkbox" id="meuCheckbox" name="meuCheckbox">
+                      <label for="meuCheckbox">Esporte</label>
+                <br>
+                    <input type="checkbox" id="meuCheckbox" name="meuCheckbox">
+                      <label for="meuCheckbox">Música</label>
+                      <br>
+                    <input type="checkbox" id="meuCheckbox" name="meuCheckbox">
+                      <label for="meuCheckbox">Tecnologia</label>
+<br>
+                
                 <br><br>
 
                 <label>Comentário:</label>
