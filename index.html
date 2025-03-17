@@ -6,44 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre mim</title>
     <link rel="icon" href="./image-tarefa/12770653.png">
+    <link rel="stylesheet" href="stylo.css">
 </head>
 <body>
     <header>
-        <h1><i>Bem-vindo à minha página</i></h1>
-        <p>Algumas coisas que eu irei te contar sobre mim:
+        <h1 id="titulo"><i>Bem-vindo à minha página</i></h1>
+       
         </p>
     </header>
    
-    <nav >
-        <ul>
-            <li> <a href="#eu">Quem sou eu</a> </li>
-            <li><a href="#L1">Objetivos</a></li>
-            <li><a href="#L2">hobbies</a></li>
-            <li><a href="#L3">Habilidades</a></li>
-            <li> <a href="#redes">Onde você pode me encontrar</a></li>
-           
-
+    <nav id="navmenu" >
+        <ul >
+             <li class="menu"><a href="#secao1">Quem sou eu</a></li> 
+             <li class="menu"><a href="#L1">Objetivos</a></li>
+             <li class="menu"><a href="#L2">hobbies</a></li>
+             <li class="menu"><a href="#L3">Habilidades</a></li>
+             <li class="menu"><a href="#redes">Onde você pode me encontrar</a></li>
         </ul>
     </nav>
- 
+ <hr>
    <main>
-    <section  id="eu"  >
-    <img width="30%" src="./image-tarefa/Imagem do WhatsApp de 2025-02-28 à(s) 16.25.05_f28a43a9.jpg" alt="foto minha"> 
-     <p> Olá, me chamo Maria Vitória, tenho 17 anos, nasci dia 12/07/2007.
-        Atualmente estou cursando <b>DSM</b> na <i>fatec Praia Grande</i> e também  <u>desenvolvimento web full stack</u> no <br>INJR(instituto Neymar Junior). Quando  não estou programando, estou ouvindo músicas, jogando volei ou também fazendo doces para vender enquanto não estou estagiando. <br>
-        Sou uma pessoa muito curiosa e extremamente determinada em relação aos meus objetivos, adoro me comunicar e expressar minhas ideias e também aprender seja com outras <br>pessoas ou comigo mesma. 
-     </p>
-    </section>
+    <section  id="secao1"  >
+      
+     
+        <p id="paragrafo" >Olá, me chamo Maria Vitória, tenho 17 anos, nasci dia 12/07/2007.
+        Atualmente estou cursando <b>DSM</b> na <i>fatec Praia Grande</i> e também  <u>desenvolvimento web full stack</u> no INJR(instituto Neymar Junior). Quando  não estou programando, estou ouvindo músicas, jogando volei ou também fazendo doces para vender enquanto não estou estagiando.
+        Sou uma pessoa muito curiosa e extremamente determinada em relação aos meus objetivos, adoro me comunicar e expressar minhas ideias e também aprender seja com outras pessoas, ou comigo mesma. 
+        </p>
 
+    <img id="perfil" src="./image-tarefa/Imagem do WhatsApp de 2025-02-28 à(s) 16.25.05_f28a43a9.jpg" alt="foto minha"> 
+   
+    </section>
+<div id="divprincipal">
     <section  id="L1">
 <h1>Meus objetivos:</h1>
 <ul>
-
     <li>Concluir a faculdade</li>
     <li>Atuar como desenvolvedora web full stack</li>
     <li>Possuir estabilidade financeira</li>
-    <li>trabalhar home office </li>
-
+    <li>Trabalhar home office </li>
 </ul>
 </section>
 
@@ -76,10 +77,11 @@
 </section>
 
 
-        <section>
-            <h2>Lista de Habilidades</h2>
+        <section >
+            <h2 id="L4">Lista de Habilidades</h2>
  
-            <table border="5">
+            <table id="tabela" border="1">
+                
                 <thead>
                     <tr>
                         <th>habilidaades</th>
@@ -96,8 +98,8 @@
                                 <figcaption>Comunicação</figcaption>
                             </figure>
                         </td>
-                        <td>Diálogo,expressar opinião, <br> entre outros...</td>
-                        <td>Avançado</td>
+                        <td class="itemtabela">Diálogo,expressar opinião, <br> entre outros...</td>
+                        <td class="itemtabela">Avançado</td>
                        
                     </tr>
  
@@ -115,16 +117,16 @@
                             </figure>
                         </td>
                     
-                        <td>Inglês</td>
-                        <td>Básico</td>
+                        <td class="itemtabela">Inglês</td>
+                        <td class="itemtabela">Básico</td>
                        
                     </tr>
 
                     <tr>
                        
                     
-                        <td>Francês</td>
-                        <td rowspan="2">Iniciante</td>
+                        <td  class="itemtabela" >Francês</td>
+                        <td class="itemtabela"  rowspan="2">Iniciante</td>
                        
                     </tr>
                     <td>
@@ -133,14 +135,14 @@
                             <figcaption>Programação</figcaption>
                         </figure>
                     </td>
-                    <td>java script</td>
+                    <td class="itemtabela">java script</td>
                     
                 </tbody>
             </table>
  
         </section>
-        <section>
-            <h2>Formulário de contato</h2>
+        <section id="formulario">
+            <h2 id="h2form">Formulário de contato</h2>
  
             <form>
                
@@ -202,29 +204,19 @@
  
               
  
-                <input type="submit" value="Enviar">
+                <input  id="botao" type="submit" value="Enviar">
                 <input type="reset" value="Cancelar">
                 <!-- <input type="button" value="Enviar"> -->
  
             </form>
         </section>  
 
-<section>
-<h1 id="redes">Minhas redes</h1>
+<section id="redes">
+<h1 >Minhas redes</h1>
 <ul>
     <li> <a href="https://www.instagram.com/m4riiaxx" target="_blank" >Instagram</a></li>
     <li> <a href="https://github.com/MariaVitoriaLopes" target="_blank" >Git Hub</a></li>
     <li> <a href="https://www.linkedin.com/in/maria-vitoria-b4276a2b7/" target="_blank">LinkedIn</a></li>
-
- 
-
-
-
-
-
-
-
-
 
 
 </ul>
@@ -234,7 +226,7 @@
 
 
    </main>
- 
+</div>
    <footer>
         <h5>&copy;2025 Sobre mim.</h5>
    </footer>
